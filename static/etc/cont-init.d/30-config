@@ -1,0 +1,3 @@
+#!/usr/bin/with-contenv bash
+chown -R bytesized:bytesized /usr/local/bin
+chown -R bytesized:bytesized /data
