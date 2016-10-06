@@ -15,7 +15,6 @@ RUN rm /$RELEASE.tar.gz && rm -rf /var/cache/apk/*
 
 COPY static/ /
 
-VOLUME /config
-VOLUME /data
+VOLUME /config /data /media
 
 EXPOSE 8384 22000 21025/udp
